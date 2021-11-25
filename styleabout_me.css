@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main, body{
+    max-height:100% ;
+    width: 100%;
+    background-image: url(simple.jpg);
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8% ;
+    padding-right: 8%;
+    padding-bottom: 25px;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.35);
+}
+
+h2 a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color:rgb(76, 88, 197);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+}
+
+nav ul li a:hover{
+    color: rgb(76, 88, 197);
+    transform: .4s;
+}
+
+.download{
+    background-color:rgb(76, 88, 197);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.download:hover{
+    transform: scale(1.1);
+}
+.wrapper{
+    margin: auto;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+.box{
+    width: 75%;
+    height: 330px;
+    background-color: rgba(151, 133, 133, 0.034);
+    border-radius: 20px;
+    box-shadow: 10px 10px 12px rgb(0, 0, 0);
+    display:flex;
+    margin:auto;
+    position:relative;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.resize{
+    border-radius: 50%;
+    position: relative;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.788);
+    line-height: 50px;
+    align-self: center;
+    padding-left: 10px;
+}
+.box-container{
+    display: flex;
+    justify-content:space-between;
+}
+.text2{
+    color: rgba(255, 255, 255, 0.788);
+    line-height: 50px;
+    padding: 5% 0% 0% 10%;
+}
+
+.boxone, .boxtwo, .boxthree{
+    margin-top: 100px;
+    width: 30%;
+    background-color: rgba(151, 133, 133, 0.034);
+    border-radius: 20px;
+    box-shadow: 10px 10px 12px rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.text2{
+    text-decoration: none
+}
